@@ -1,9 +1,9 @@
 def branch = "main"
 def repo = "git@github.com:MuhSatriyo/housy-backend.git"
-def cred = "sshcicd"
+def cred = "cicd"
 def dir = "~/housy-backend"
 def server = "tesapp@103.82.92.106"
-def imagename = "housy-frontend"
+def imagename = "housy-be"
 def dockerusername = "muhsatriyo"
 
 pipeline {
